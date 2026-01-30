@@ -1,7 +1,7 @@
 export const education: Education[] = [
   {
     school: "McGill University",
-    time: "Winter 2023 - Present",
+    time: "Winter 2023 - April 2026",
     degree: "B.A.Sc., Cognitive Science: Computer Science and Linguistics",
     conc: "Minor in Statistics",
     location: "Montreal, QC",
@@ -11,7 +11,7 @@ export const education: Education[] = [
       "LING 371 Semantics",
       "MATH 240 Discrete Structures",
       "MATH 323 Probability",
-      "PSYC 212 Perception"
+      "PSYC 213 Cognition"
     ]
   }
 ];
