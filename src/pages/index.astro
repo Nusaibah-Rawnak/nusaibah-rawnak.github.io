@@ -49,8 +49,8 @@ const { fullName, title, institute, research_areas } = profile
         <h2 class="text-4xl font-bold mb-8 text-left">Nusaibah Binte Rawnak</h2>
         <div class="mb-6">
           <div class="flex justify-between items-center mb-2">
-            <a href="https://coursecatalogue.mcgill.ca/en/undergraduate/science/programs/computer-science/computer-science-artificial-intelligence-major-bsc/#programoverviewtext" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
-              <span>{education[0].degree}</span><span class="hover-arrow">→</span>
+            <a href="https://coursecatalogue.mcgill.ca/en/undergraduate/arts-science/programs/cognitive-science/cognitive-science-interfaculty-program-basc/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                <span>{education[0].degree}</span><span class="hover-arrow">→</span>
             </a>
             <div class="text-sm italic text-gray-700 text-right">{education[0].time}</div>
           </div>
@@ -70,77 +70,151 @@ const { fullName, title, institute, research_areas } = profile
           <div class="mt-6">
             <h3 class="text-xl font-bold text-gray-800 mb-2">Notable Courses Completed</h3>
             <ul class="list-disc list-inside text-gray-700 text-base space-y-1">
+              <!-- COMP Courses -->
               <li>
-                <a href="https://coursecatalogue.mcgill.ca/courses/comp-251/index.html" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                <a href="https://coursecatalogue.mcgill.ca/courses/comp-206/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>COMP 206 Introduction to Software Systems</span><span class="hover-arrow">→</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://coursecatalogue.mcgill.ca/courses/comp-251/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
                   <span>COMP 251 Algorithms and Data Structures</span><span class="hover-arrow">→</span>
                 </a>
               </li>
               <li>
-                <a href="https://coursecatalogue.mcgill.ca/courses/comp-345/index.html" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                <a href="https://coursecatalogue.mcgill.ca/courses/comp-345/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
                   <span>COMP 345 Natural Language to Data Science</span><span class="hover-arrow">→</span>
                 </a>
               </li>
               <li>
-                <a href="https://coursecatalogue.mcgill.ca/courses/comp-545/index.html" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
-                  <span>COMP 545 Natural Language Understanding with Deep Learning</span><span class="hover-arrow">→</span>
+                <a href="https://coursecatalogue.mcgill.ca/courses/comp-445/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>COMP 445 Computational Linguistics</span><span class="hover-arrow">→</span>
                 </a>
               </li>
               <li>
-                <a href="https://coursecatalogue.mcgill.ca/courses/comp-551/index.html" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                <a href="https://coursecatalogue.mcgill.ca/courses/comp-545/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>COMP 545 Computational Semantics with Neural Networks</span><span class="hover-arrow">→</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://coursecatalogue.mcgill.ca/courses/comp-550/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>COMP 550 Natural Language Processing</span><span class="hover-arrow">→</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://coursecatalogue.mcgill.ca/courses/comp-551/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
                   <span>COMP 551 Applied Machine Learning</span><span class="hover-arrow">→</span>
                 </a>
               </li>
               <li>
-                <a href="https://coursecatalogue.mcgill.ca/courses/ling-201/index.html" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                <a href="https://coursecatalogue.mcgill.ca/courses/comp-579/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>COMP 579 Reinforcement Learning</span><span class="hover-arrow">→</span>
+                </a>
+              </li>
+              
+              <!-- FRSL Courses -->
+              <li>
+                <a href="https://coursecatalogue.mcgill.ca/courses/frsl-208/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>FRSL 208 Intensive Elementary French</span><span class="hover-arrow">→</span>
+                </a>
+              </li>
+              
+              <!-- LING Courses -->
+              <li>
+                <a href="https://coursecatalogue.mcgill.ca/courses/ling-201/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
                   <span>LING 201 Introduction to Linguistics</span><span class="hover-arrow">→</span>
                 </a>
               </li>
               <li>
-                <a href="https://coursecatalogue.mcgill.ca/courses/ling-371/index.html" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
-                  <span>LING 371 Semantics</span><span class="hover-arrow">→</span>
+                <a href="https://coursecatalogue.mcgill.ca/courses/ling-345/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>LING 345 From Natural Language to Data Science</span><span class="hover-arrow">→</span>
                 </a>
               </li>
               <li>
-                <a href="https://coursecatalogue.mcgill.ca/courses/ling-545/index.html" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                <a href="https://coursecatalogue.mcgill.ca/courses/ling-371/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>LING 371 Syntax 1</span><span class="hover-arrow">→</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://coursecatalogue.mcgill.ca/courses/ling-445/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>LING 445 Computational Linguistics</span><span class="hover-arrow">→</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://coursecatalogue.mcgill.ca/courses/ling-545/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
                   <span>LING 545 Computational Semantics with Neural Networks</span><span class="hover-arrow">→</span>
                 </a>
               </li>
+              
+              <!-- MATH Courses -->
               <li>
-                <a href="https://coursecatalogue.mcgill.ca/courses/math-222/index.html" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                <a href="https://coursecatalogue.mcgill.ca/courses/math-208/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>MATH 208 Introduction to Statistical Computing</span><span class="hover-arrow">→</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://coursecatalogue.mcgill.ca/courses/math-222/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
                   <span>MATH 222 Calculus 3</span><span class="hover-arrow">→</span>
                 </a>
               </li>
               <li>
-                <a href="https://coursecatalogue.mcgill.ca/courses/math-223/index.html" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                <a href="https://coursecatalogue.mcgill.ca/courses/math-223/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
                   <span>MATH 223 Linear Algebra</span><span class="hover-arrow">→</span>
                 </a>
               </li>
               <li>
-                <a href="https://coursecatalogue.mcgill.ca/courses/math-240/index.html" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                <a href="https://coursecatalogue.mcgill.ca/courses/math-240/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
                   <span>MATH 240 Discrete Structures</span><span class="hover-arrow">→</span>
                 </a>
               </li>
               <li>
-                <a href="https://coursecatalogue.mcgill.ca/courses/math-323/index.html" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                <a href="https://coursecatalogue.mcgill.ca/courses/math-323/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
                   <span>MATH 323 Probability</span><span class="hover-arrow">→</span>
                 </a>
               </li>
               <li>
-                <a href="https://coursecatalogue.mcgill.ca/courses/math-324/index.html" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                <a href="https://coursecatalogue.mcgill.ca/courses/math-324/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
                   <span>MATH 324 Statistics</span><span class="hover-arrow">→</span>
                 </a>
               </li>
               <li>
-                <a href="https://coursecatalogue.mcgill.ca/courses/math-423/index.html" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                <a href="https://coursecatalogue.mcgill.ca/courses/math-423/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
                   <span>MATH 423 Applied Regression</span><span class="hover-arrow">→</span>
                 </a>
               </li>
+              
+              <!-- NSCI Courses -->
               <li>
-                <a href="https://coursecatalogue.mcgill.ca/courses/psyc-212/index.html" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
-                  <span>PSYC 212 Perception</span><span class="hover-arrow">→</span>
+                <a href="https://coursecatalogue.mcgill.ca/courses/nsci-201/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>NSCI 201 Introduction to Neuroscience 2</span><span class="hover-arrow">→</span>
+                </a>
+              </li>
+              
+              <!-- PHIL Courses -->
+              <li>
+                <a href="https://coursecatalogue.mcgill.ca/courses/phil-210/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>PHIL 210 Introduction to Deductive Logic 1</span><span class="hover-arrow">→</span>
+                </a>
+              </li>
+              
+              <!-- PSYC Courses -->
+              <li>
+                <a href="https://coursecatalogue.mcgill.ca/courses/psyc-204/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>PSYC 204 Introduction to Psychological Statistics</span><span class="hover-arrow">→</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://coursecatalogue.mcgill.ca/courses/psyc-211/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>PSYC 211 Introductory Behavioural Neuroscience</span><span class="hover-arrow">→</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://coursecatalogue.mcgill.ca/courses/psyc-213/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
+                  <span>PSYC 213 Cognition</span><span class="hover-arrow">→</span>
                 </a>
               </li>
             </ul>
+          </div>
           </div>
         </div>
       </div>
