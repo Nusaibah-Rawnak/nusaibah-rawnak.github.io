@@ -1,67 +1,75 @@
 export const education: Education[] = [
   {
     school: "McGill University",
-    time: "Fall 2022 – Winter 2026",
-    degree: "Computer Science and Statistics Student",
-    conc: "Concentration in Artificial Intelligence",
+    time: "Winter 2023 - Present",
+    degree: "B.A.Sc., Cognitive Science: Computer Science and Linguistics",
+    conc: "Minor in Statistics",
     location: "Montreal, QC",
     courses: [
-      "COMP 302 Programming Paradigms",
-      "COMP 303 Software Design",
-      "COMP 350 Numerical Computing",
-      "COMP 345 Natural Language to Data Science",
-      "COMP 424 Artificial Intelligence",
-      "COMP 551 Applied Machine Learning",
-      "MATH 222 Calculus 3",
-      "MATH 223 Linear Algebra",
+      "COMP 251 Algorithms and Data Structures",
+      "LING 201 Introduction to Linguistics",
+      "LING 371 Semantics",
+      "MATH 240 Discrete Structures",
       "MATH 323 Probability",
-      "MATH 324 Statistics",
-      "MATH 558 Design of Experiments"
+      "PSYC 212 Perception"
     ]
   }
 ];
 
 export const experiences: Experience[] = [
   {
-    company: "RBC",
-    time: "Jan 2026 – April 2026",
-    title: "Incoming Software Developer Intern",
-    location: "Montreal, Canada",
-    summary: "Incoming Software Developer Intern on the Digital Technology team (Online Banking); selected to join an agile squad working on full‑stack services and cloud‑native delivery.",
+    company: "McGill University",
+    time: "January 2026 - April 2026",
+    title: "Course Assistant, MATH 323 (Probability)",
+    location: "Montreal, QC",
+    summary: "Leading tutorials and grading for a large-scale Statistics core course.",
     bullets: [
-      "Will design and deliver full‑stack features for RBC’s Online Banking platform using Java, Spring Boot, Angular, and JavaScript within OpenShift and Azure environments.",
-      "Will build and optimize RESTful APIs and MongoDB integrations to improve scalability, maintainability, and performance across services.",
-      "Will implement automated unit and integration testing, participate in code reviews, and contribute to CI/CD pipelines to enhance release reliability and speed.",
-      "Will collaborate within an agile squad to translate business requirements into technical designs, document components and interfaces, and drive cross‑team walkthroughs.",
-      "Will support platform modernization and performance tuning initiatives, including observability and developer experience improvements."
+      
+    ]
+  },
+
+  {
+    company: "McGill University",
+    time: "September 2025 - December 2025",
+    title: "Course Assistant, MATH 240 (Discrete Structures)",
+    location: "Montreal, QC",
+    summary: "Leading tutorials and grading for a large-scale CS core course.",
+    bullets: [
+      "Led weekly tutorials and graded assignments for ~330 students via Crowdmark, ensuring fairness and accuracy across topics like logic, proof techniques, combinatorics, and graph theory.",
+      "Provided targeted feedback to strengthen students' analytical reasoning while coordinating with the instructor to maintain grading standards and lesson consistency in a large-scale CS core course."
+    ]
+  },
+  {
+    company: "Rawnak's Bakery",
+    time: "June 2022 - Present",
+    title: "Founder and Manager",
+    location: "Dhaka, Bangladesh and Montreal, QC",
+    summary: "Founded and scaled a home-based bakery with data-driven operations.",
+    bullets: [
+      "Founded and scaled a home-based bakery, achieving consistent revenue growth through innovative digital marketing and customer engagement strategies.",
+      "Leveraged sales and operational data to optimize inventory, streamline workflows, and manage end-to-end operations - from product development to financial planning - ensuring high customer satisfaction."
     ]
   },
   {
     company: "City Bank",
-    time: "May 2024 – August 2024",
+    time: "June 2024 - August 2024",
     title: "Summer Data Science Intern",
     location: "Dhaka, Bangladesh",
-    summary: "Designed and deployed predictive ML solutions for customer lifetime value and behavioral analytics.",
+    summary: "Built and deployed ML models for customer targeting and behavioral analytics.",
     bullets: [
-      "Designed, trained, and deployed a predictive machine learning pipeline using Scikit-learn, PyTorch, and MLflow, achieving a 15% increase in marketing ROI by identifying high-LTV (lifetime value) customers.",
-      "Engineered data preprocessing workflows using Pandas, NumPy, and spaCy, improving unstructured data parsing speed by 25%.",
-      "Conducted natural language processing on customer feedback using NLTK, extracting key sentiment features and enabling actionable insights into user experience.",
-      "Built interactive data visualizations with Seaborn and Matplotlib to present behavioral trend analysis, aiding strategic business decisions across cross-functional teams.",
-      "Collaborated with a team of 4 to create automated model evaluation dashboards using Jupyter, resulting in a 40% reduction in manual reporting time."
+      "Built and deployed a predictive machine learning model with Scikit-learn and PyTorch to identify high-value customers, boosting deposit-targeting efficiency by 15%.",
+      "Applied Pandas, spaCy, and NLTK to process structured and unstructured data using Seaborn visualizations to reveal behavioral patterns that improved customer targeting."
     ]
   },
   {
-    company: "bKash",
-    time: "May 2023 – August 2023",
-    title: "Summer Engineering Intern",
+    company: "Marie Stopes",
+    time: "May 2023 - August 2023",
+    title: "Business & Data Analytics Intern",
     location: "Dhaka, Bangladesh",
-    summary: "Improved backend systems, testing infrastructure, and deployment processes for mobile banking.",
+    summary: "Created dashboards and reports to drive data-informed marketing strategies.",
     bullets: [
-      "Developed and deployed RESTful APIs in Java (Spring Boot) and PostgreSQL, optimizing backend communication for the bKash Mobile Banking platform, resulting in 30% faster transaction processing.",
-      "Enhanced CI/CD workflows using Git, Jenkins, and Docker, reducing integration-related errors by 20% and deployment time by 35%.",
-      "Designed and executed over 100 automated unit and integration tests using JUnit, improving code coverage from 60% to 92%.",
-      "Spearheaded a debugging initiative that resolved 15+ critical runtime bugs, enhancing application stability and reducing crash reports by 50%.",
-      "Participated in Agile sprints, collaborating with product managers and QA engineers to ensure timely delivery of features in alignment with user requirements."
+      "Analyzed client experience datasets using Python, Excel (VBA), Power BI, and Tableau to uncover engagement trends and service gaps, informing data-driven marketing strategies.",
+      "Created interactive dashboards and reports to visualize insights and guide evidence-based decisions, improving client retention and overall campaign performance."
     ]
   }
 ];
