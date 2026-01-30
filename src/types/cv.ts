@@ -1,7 +1,7 @@
 export const education: Education[] = [
   {
     school: "McGill University",
-    time: "Winter 2023 - April 2026",
+    time: "Winter 2023 - Winter 2026",
     degree: "B.A.Sc., Cognitive Science: Computer Science and Linguistics",
     conc: "Minor in Statistics",
     location: "Montreal, QC",
