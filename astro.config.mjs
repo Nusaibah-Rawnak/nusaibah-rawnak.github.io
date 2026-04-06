@@ -16,6 +16,6 @@ export default defineConfig({
     // base: template.base,
 
     integrations: [tailwind()],
-    site: 'https://Ashhab95.github.io',
+    site: 'https://Nusaibah-Rawnak.github.io',
     output: 'static'
 });
