@@ -18,17 +18,6 @@ export const education: Education[] = [
 
 export const experiences: Experience[] = [
   {
-    company: "bKash",
-    time: "May 2025 - August 2025",
-    title: "Software Engineering Intern",
-    location: "Dhaka, Bangladesh",
-    summary: "Developed RESTful APIs and automated test suites for a microservices-based mobile banking platform.",
-    bullets: [
-      "Developed and integrated RESTful APIs in Java and SQL to enhance financial data processing pipelines for the bKash mobile banking application, supporting a microservices-based backend architecture.",
-      "Automated test suites using JUnit to validate API functionality and improve software reliability, reducing manual testing overhead through systematic debugging and regression coverage."
-    ]
-  },
-  {
     company: "McGill University",
     time: "September 2025 - April 2026",
     title: "Course Assistant, MATH 240 (Discrete Structures) & MATH 323 (Probability)",
@@ -37,6 +26,17 @@ export const experiences: Experience[] = [
     bullets: [
       "Led weekly tutorials and graded assignments for ~330 students via Crowdmark, across two consecutive terms covering discrete structures and probability theory.",
       "Provided targeted feedback to strengthen analytical reasoning while coordinating with instructors to maintain grading standards and lesson consistency."
+    ]
+  },
+    {
+    company: "bKash",
+    time: "May 2025 - August 2025",
+    title: "Software Engineering Intern",
+    location: "Dhaka, Bangladesh",
+    summary: "Developed RESTful APIs and automated test suites for a microservices-based mobile banking platform.",
+    bullets: [
+      "Developed and integrated RESTful APIs in Java and SQL to enhance financial data processing pipelines for the bKash mobile banking application, supporting a microservices-based backend architecture.",
+      "Automated test suites using JUnit to validate API functionality and improve software reliability, reducing manual testing overhead through systematic debugging and regression coverage."
     ]
   },
   {
