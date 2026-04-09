@@ -1,102 +1,83 @@
-# Astro Academia Documentation
+# nusaibah-rawnak.github.io
 
-## What is Astro Academia?
+Personal portfolio website for **Nusaibah Binte Rawnak** - Cognitive Science student at McGill University (CS + Linguistics, Minor Statistics), with experience in software engineering, data science, and NLP.
 
-Astro Academia is a personal academic website built using Astro, a modern static site generator. The website is designed to showcase academic achievements, research papers, blog posts, and a CV. It is fast, responsive, and easy to maintain, making it an ideal platform for academics and researchers to present their work.
+🌐 **Live site:** [nusaibah-rawnak.github.io](https://nusaibah-rawnak.github.io)
 
-If you find Astro Academia useful or appreciate my work, consider supporting me! Your support helps keep this project maintained and encourages further development. 🚀✨
-
-<a href="https://buymeacoffee.com/maiobarbero" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-## How to use it
-
-Fork this repository to create your new website starting from this template.
-
-## How to Create a CV Using the `cv.ts` File
-
-The `cv.ts` file located in the `src/data/` directory is used to define the structure and content of your CV. This file exports an object containing various sections of your CV, such as education, experience, publications, and more.
-
-### Example Structure of `cv.ts`
-
-```typescript
-export const cv = {
-  education: [
-    {
-      degree: "Ph.D. in Computer Science",
-      institution: "University of Example",
-      year: "2020",
-    },
-    {
-      degree: "M.Sc. in Computer Science",
-      institution: "University of Example",
-      year: "2016",
-    },
-  ],
-  experience: [
-    {
-      title: "Research Scientist",
-      company: "Example Research Lab",
-      year: "2021-Present",
-    },
-    {
-      title: "Software Engineer",
-      company: "Tech Company",
-      year: "2016-2021",
-    },
-  ],
-  // Add more sections as needed
-};
-```
-
-To create or update your CV, modify the `cv.ts` file with your personal information and achievements. The CV will be automatically rendered on the CV page of your website.
-
-## How to Use the `settings.ts` File
-
-The `settings.ts` file located in the `src/` directory is used to configure various settings for your Astro Academia website. This file exports an object containing settings such as site title, description, social media links, and more.
-
-### Example Structure of `settings.ts`
-
-```typescript
-export const settings = {
-  siteTitle: "Astro Academia",
-  siteDescription: "A personal academic website built with Astro.",
-  socialLinks: {
-    twitter: "https://twitter.com/yourusername",
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
-  },
-  // Add more settings as needed
-};
-```
-
-To customize your website settings, modify the `settings.ts` file with your desired values. These settings will be used throughout your website to display the appropriate information.
-
-## Where to Find the Blog Collection and Where to Add New Blog Posts
-
-The blog collection is located in the `src/content/BlogPosts/` directory. Each blog post is a Markdown file with a `.md` extension. The blog posts are named sequentially (e.g., `post1.md`, `post2.md`, etc.).
-
-### Adding a New Blog Post
-
-1. Navigate to the `src/content/BlogPosts/` directory.
-2. Create a new Markdown file for your blog post (e.g., `post1.md`).
-3. Add the content of your blog post using Markdown syntax. Include frontmatter at the top of the file to define metadata such as title, date, and tags.
-
-### Example Blog Post (`post11.md`)
-
-```markdown
----
-title: "New Blog Post"
-date: "2023-10-01"
-tags: ["research", "astro"]
-excerpt: "Some short paragraphs"
 ---
 
-# New Blog Post
+## About
 
-This is the content of the new blog post. Write your article here using Markdown syntax.
+This site showcases my projects, work experience, and technical skills. It's built to be fast, accessible, and visually clean - with a focus on making my work easy to explore for recruiters and collaborators alike.
+
+---
+
+## Tech Stack
+
+- **Framework:** [Astro](https://astro.build/) - static site generation with component-based architecture
+- **Languages:** TypeScript, HTML, CSS
+- **Deployment:** GitHub Pages via GitHub Actions
+
+---
+
+## Project Highlights
+
+| Project | Tech | Links |
+|---|---|---|
+| **NLP Text Classifier** (COMP 550) | FastAPI · React · TypeScript · Recharts | [Demo](https://nlp-classifier-frontend.vercel.app) · [Repo](https://github.com/Nusaibah-Rawnak/nlp-classifier-frontend) |
+| **Context Helps, But Only at Scale** | Python · LLMs · XGBoost · ARIMA | - |
+| **Track Split: AI Expense Tracker** | Next.js · PostgreSQL · Prisma · OCR | In progress |
+
+---
+
+## Running Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/Nusaibah-Rawnak/nusaibah-rawnak.github.io.git
+cd nusaibah-rawnak.github.io
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
 ```
 
-Once you have added the new blog post, it will be automatically included in the blog collection and displayed on the blog page of your website.
+The site will be available at `http://localhost:4321`.
 
-## Deploy
-The template provides a workflow to deploy the website on Github pages as a static website.
+---
+
+## Project Structure
+
+```
+/
+├── public/             # Static assets (favicon, images)
+├── src/
+│   ├── assets/         # SVGs and visual assets
+│   ├── components/     # Reusable Astro components
+│   ├── pages/          # Page routes (index.astro, etc.)
+│   └── types/          # CV/resume data (cv.ts)
+├── astro.config.mjs
+└── package.json
+```
+
+---
+
+## Deployment
+
+The site deploys automatically to GitHub Pages on every push to `main` via GitHub Actions (`.github/workflows/`).
+
+---
+
+## Contact
+
+- 📧 [nusaibah.rawnak@mail.mcgill.ca](mailto:nusaibah.rawnak@mail.mcgill.ca)
+- 💼 [LinkedIn](https://linkedin.com/in/nusaibahrawnak)
+- 🐙 [GitHub](https://github.com/Nusaibah-Rawnak)
+
+---
+
+## Credits
+
+Built on top of the [Astro Academia](https://github.com/maiobarbero/astro-academia) template by [@maiobarbero](https://github.com/maiobarbero).
