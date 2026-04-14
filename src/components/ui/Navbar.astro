@@ -9,7 +9,7 @@ const isBlogPopulated = await getCollection('blog').then(collection => collectio
 const {fullName, title} = profile
 ---
 <nav class="w-full bg-white/30 backdrop-blur-md text-base-content py-2 px-6 flex justify-center items-center fixed top-0 z-50 shadow-sm scroll-smooth">
-  <ul class="flex space-x-10 text-lg font-medium">
+  <ul class="flex space-x-6 sm:space-x-10 text-base sm:text-lg font-medium">
     <li><a href="#home" class="transition-all duration-300 hover:text-purple-700 hover:font-bold hover:scale-110">Home</a></li>
     <li><a href="#cv" class="transition-all duration-300 hover:text-purple-700 hover:font-bold hover:scale-110">Experience</a></li>
     <li><a href="#projects" class="transition-all duration-300 hover:text-purple-700 hover:font-bold hover:scale-110">Projects</a></li>

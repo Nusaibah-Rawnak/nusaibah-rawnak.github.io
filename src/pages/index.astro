@@ -39,15 +39,15 @@ const { fullName, title, institute, research_areas } = profile
     </section>
 
     <!-- CV Section -->
-<section id="cv" class="pl-0 pr-0 py-24 text-gray-900">
-  <div class="bg-white/30 rounded-xl shadow-md overflow-hidden p-8 max-w-7xl mx-auto">
+<section id="cv" class="px-4 sm:px-0 py-24 text-gray-900">
+  <div class="bg-white/30 rounded-xl shadow-md overflow-hidden p-4 sm:p-8 max-w-7xl mx-auto">
     <div>
       {/* ref: CV Section */}
       <!-- Education -->
       <div>
         <h2 class="text-4xl font-bold mb-8 text-left">Nusaibah Binte Rawnak</h2>
         <div class="mb-6">
-          <div class="flex justify-between items-center mb-2">
+          <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2 gap-1">
             <a href="https://coursecatalogue.mcgill.ca/en/undergraduate/arts-science/programs/cognitive-science/cognitive-science-interfaculty-program-basc/" target="_blank" rel="noopener noreferrer" class="transition-transform duration-300 hover:text-purple-700 hover:font-bold transform hover:scale-110">
                 <span>{education[0].degree}</span><span class="hover-arrow">→</span>
             </a>
@@ -68,7 +68,7 @@ const { fullName, title, institute, research_areas } = profile
           </div>
           <div class="mt-6">
             <h3 class="text-xl font-bold text-gray-800 mb-4">Notable Courses Completed</h3>
-            <div class="grid grid-cols-2 gap-x-6 gap-y-5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-5">
 
               <!-- MATH -->
               <div>
@@ -134,12 +134,12 @@ const { fullName, title, institute, research_areas } = profile
 
         {[...experiences].map((exp) => (
           <div class="mb-8">
-            <div class="flex items-baseline justify-between">
+            <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
               <div class="text-lg font-bold mt-1">
                 {exp.title}
                 <span class="font-normal"> @ {exp.company}</span>
               </div>
-              <div class="text-sm italic text-gray-700">{exp.time}</div>
+              <div class="text-sm italic text-gray-700 sm:text-right">{exp.time}</div>
             </div>
             <div class="text-sm text-gray-700">{exp.location}</div>
             {exp.bullets && exp.bullets.length > 0 && (
@@ -159,7 +159,7 @@ const { fullName, title, institute, research_areas } = profile
    <!-- Projects Section -->
 <section id="projects" class="py-24 text-gray-900">
   <h2 class="text-4xl font-bold mb-12 text-center">Projects</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-8 max-w-7xl mx-auto">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 sm:px-8 max-w-7xl mx-auto">
 
     <!-- Project 1: Track Split -->
     <div class="bg-white/60 rounded-xl shadow-md overflow-hidden p-6 flex flex-col justify-between">
