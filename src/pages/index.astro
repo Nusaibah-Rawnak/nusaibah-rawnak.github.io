@@ -158,29 +158,10 @@ const { fullName, title, institute, research_areas } = profile
 
    <!-- Projects Section -->
 <section id="projects" class="py-24 text-gray-900">
-  <h2 class="text-4xl font-bold mb-12 text-center">Projects</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 sm:px-8 max-w-7xl mx-auto">
+<h2 class="text-4xl font-bold mb-12 text-center">Projects</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 sm:px-8 max-w-7xl mx-auto">
 
-    <!-- Project 1: Track Split -->
-    <div class="bg-white/60 rounded-xl shadow-md overflow-hidden p-6 flex flex-col justify-between">
-      <img src="/tsplit.png" alt="Track Split App" class="rounded mb-4 w-full max-h-64 object-cover" />
-      <div>
-        <h3 class="text-xl font-bold mb-2">Track Split: AI-Powered Expense Tracker</h3>
-        <p class="mb-4 text-sm text-gray-700">
-          Currently developing an expense platform with dynamic visualizations and ML-driven spending insights. Integrating OCR-based bill scanning and intelligent group-splitting to streamline expense management. Built with a Next.js frontend, serverless API routes, and PostgreSQL via Prisma, deployed on Vercel.
-        </p>
-      </div>
-      <div class="flex flex-wrap gap-2 mt-auto">
-        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">TypeScript</span>
-        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Python</span>
-        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Next.js</span>
-        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">PostgreSQL</span>
-        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Prisma</span>
-        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">OCR</span>
-      </div>
-    </div>
-
-  <!-- Project 2: LLM Time Series Forecasting -->
+  <!-- Project 1: LLM Time Series Forecasting -->
   <div class="bg-white/60 rounded-xl shadow-md overflow-hidden p-6 flex flex-col justify-between">
     <img src="/llm-demo.gif" alt="LLM Forecasting demo" class="rounded-lg mb-4 w-full max-h-56 object-cover" />
     <div>
@@ -203,6 +184,37 @@ const { fullName, title, institute, research_areas } = profile
         <a href="https://llmbenchmark-frontend.vercel.app" target="_blank" rel="noopener noreferrer" class="inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold px-4 py-2 rounded transition-colors duration-300 ml-2">
           Live Demo →
         </a>
+      </div>
+    </div>
+
+  <!-- Project 2: Customer Support AI -->
+    <div class="bg-white/60 rounded-xl shadow-md overflow-hidden p-6 flex flex-col justify-between">
+      <img src="/customer-support-ai.gif" alt="Customer Support AI demo" class="rounded-lg mb-4 w-full max-h-56 object-cover" />
+      <div>
+        <h3 class="text-xl font-bold mb-2">Customer Support AI: Multi-Agent System</h3>
+        <p class="mb-4 text-sm text-gray-700">
+          Built a multi-agent AI system for customer support executives to query structured customer data and unstructured policy documents using natural language. A LangGraph supervisor routes queries to a SQL agent (SQLite) or RAG agent (ChromaDB) — each backed by a FastMCP server — with responses synthesized by Google Gemini 2.5 Flash Lite. Features a Streamlit UI with PDF upload and per-response route indicators.
+        </p>
+      </div>
+      <div>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Python</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">LangGraph</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">LangChain</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">FastMCP</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">RAG</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">ChromaDB</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Gemini</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Streamlit</span>
+        </div>
+        <div class="flex gap-3 flex-wrap">
+          <a href="https://www.loom.com/share/4ce1aa3ef8f949e88155efbd44ba8e11" target="_blank" rel="noopener noreferrer" class="inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold px-4 py-2 rounded transition-colors duration-300">
+            View Demo →
+          </a>
+          <a href="https://github.com/Nusaibah-Rawnak/customer-support-ai" target="_blank" rel="noopener noreferrer" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-4 py-2 rounded transition-colors duration-300">
+            View on GitHub →
+          </a>
+        </div>
       </div>
     </div>
 
@@ -264,6 +276,26 @@ const { fullName, title, institute, research_areas } = profile
             Read Report →
           </a>
         </div>
+      </div>
+    </div>
+
+
+  <!-- Project 5: Track Split -->
+    <div class="bg-white/60 rounded-xl shadow-md overflow-hidden p-6 flex flex-col justify-between">
+      <img src="/tsplit.png" alt="Track Split App" class="rounded mb-4 w-full max-h-64 object-cover" />
+      <div>
+        <h3 class="text-xl font-bold mb-2">Track Split: AI-Powered Expense Tracker</h3>
+        <p class="mb-4 text-sm text-gray-700">
+          Currently developing an expense platform with dynamic visualizations and ML-driven spending insights. Integrating OCR-based bill scanning and intelligent group-splitting to streamline expense management. Built with a Next.js frontend, serverless API routes, and PostgreSQL via Prisma, deployed on Vercel.
+        </p>
+      </div>
+      <div class="flex flex-wrap gap-2 mt-auto">
+        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">TypeScript</span>
+        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Python</span>
+        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Next.js</span>
+        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Prisma</span>
+        <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">OCR</span>
       </div>
     </div>
 
