@@ -162,29 +162,29 @@ const { fullName, title, institute, research_areas } = profile
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 sm:px-8 max-w-7xl mx-auto">
 
   <!-- Project 1: LLM Time Series Forecasting -->
-  <div class="bg-white/60 rounded-xl shadow-md overflow-hidden p-6 flex flex-col justify-between">
-    <img src="/llm-demo.gif" alt="LLM Forecasting demo" class="rounded-lg mb-4 w-full max-h-72 object-cover object-top" />
-    <div>
-        <h3 class="text-xl font-bold mb-2">Context Helps, But Only at Scale: Evaluating Practical LLMs for Time Series Forecasting</h3>
-        <p class="mb-4 text-sm text-gray-700">
-          Benchmarked LLM architectures (Llama 3.2, GPT-4o-mini, Mixtral) against classical methods (ARIMA, ETS) across 120 forecasting tasks spanning 12 domains including finance, energy, and transportation. Developed XGBoost routing classifier achieving 89.5% of optimal performance while reducing LLM usage by 69%, enabling practical deployment for resource-constrained environments.
-        </p>
-      </div>
+    <div class="bg-white/60 rounded-xl shadow-md overflow-hidden p-6 flex flex-col justify-between">
+      <img src="/llm-demo.gif" alt="LLM Forecasting demo" class="rounded-lg mb-4 w-full max-h-72 object-cover object-top" />
       <div>
-        <div class="flex flex-wrap gap-2 mb-4">
-          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Python</span>
-          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">LLMs</span>
-          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">XGBoost</span>
-          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Time Series</span>
-          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Machine Learning</span>
+          <h3 class="text-xl font-bold mb-2">Context Helps, But Only at Scale: Evaluating Practical LLMs for Time Series Forecasting</h3>
+          <p class="mb-4 text-sm text-gray-700">
+            Benchmarked LLM architectures (Llama 3.2, GPT-4o-mini, Mixtral) against classical methods (ARIMA, ETS) across 120 forecasting tasks spanning 12 domains including finance, energy, and transportation. Developed XGBoost routing classifier achieving 89.5% of optimal performance while reducing LLM usage by 69%, enabling practical deployment for resource-constrained environments.
+          </p>
         </div>
-        <a href="/context-helps-but-only-at-a-scale.pdf" target="_blank" rel="noopener noreferrer" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-4 py-2 rounded transition-colors duration-300">
-          Read Paper →
-        </a>
-        <a href="https://llmbenchmark-frontend.vercel.app" target="_blank" rel="noopener noreferrer" class="inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold px-4 py-2 rounded transition-colors duration-300 ml-2">
-          Live Demo →
-        </a>
-      </div>
+        <div>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Python</span>
+            <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">LLMs</span>
+            <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">XGBoost</span>
+            <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Time Series</span>
+            <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Machine Learning</span>
+          </div>
+          <a href="/context-helps-but-only-at-a-scale.pdf" target="_blank" rel="noopener noreferrer" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-4 py-2 rounded transition-colors duration-300">
+            Read Paper →
+          </a>
+          <a href="https://llmbenchmark-frontend.vercel.app" target="_blank" rel="noopener noreferrer" class="inline-block bg-teal-600 hover:bg-teal-700 text-white font-semibold px-4 py-2 rounded transition-colors duration-300 ml-2">
+            Live Demo →
+          </a>
+        </div>
     </div>
 
   <!-- Project 2: Customer Support AI -->
@@ -251,7 +251,53 @@ const { fullName, title, institute, research_areas } = profile
       </div>
     </div>
 
-    <!-- Project 4: Fashion-MNIST Neural Networks -->
+  <!-- Project 4: Prompt Augmentation in Medical MLLMs (RL) -->
+    <div class="bg-white/60 rounded-xl shadow-md overflow-hidden p-6 flex flex-col justify-between">
+      <img src="/fig5_domain_shift.png" alt="Domain shift analysis of CGP narrowing behaviour" class="rounded-lg mb-4 w-full max-h-72 object-cover object-top" />
+      <div>
+        <h3 class="text-xl font-bold mb-2">Prompt Augmentation in Medical Multimodal LLMs</h3>
+        <p class="mb-4 text-sm text-gray-700">
+          Replicated Prompt4Trust, an RL framework that trains a lightweight Calibration Guidance Prompt Generator via GRPO to improve confidence calibration in frozen MLLMs. Evaluated zero-shot generalization to an oral lesion classification dataset (567 images, 13 classes), identifying reward hacking under domain shift as the root cause of failure: the CGP narrowed answer candidates in 69% of out-of-distribution hints, carrying no predictive signal.
+        </p>
+      </div>
+      <div>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Python</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Reinforcement Learning</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">GRPO</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">MLLMs</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Confidence Calibration</span>
+        </div>
+        <a href="/prompt-augmentation-report.pdf" target="_blank" rel="noopener noreferrer" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-4 py-2 rounded transition-colors duration-300">
+          Read Paper →
+        </a>
+      </div>
+    </div>
+
+  <!-- Project 5: Cross-Lingual Drug Dosage Reliability (NLP) -->
+    <div class="bg-white/60 rounded-xl shadow-md overflow-hidden p-6 flex flex-col justify-between">
+      <img src="/plot2_exact_match_by_language.png" alt="Exact match rate by language and model" class="rounded-lg mb-4 w-full max-h-72 object-cover object-top" />
+      <div>
+        <h3 class="text-xl font-bold mb-2">Do LLMs Prescribe Consistently? Cross-Lingual Drug Dosage Reliability</h3>
+        <p class="mb-4 text-sm text-gray-700">
+          Benchmarked four LLMs (Gemini 3.1 Pro, GLM-5.1, Gemma-4 31B, Qwen 3.5 9B) on multilingual NTI drug dosage recall across five languages, using FDA labels as ground truth. Stronger models reached ~80% exact-match but still carried clinically significant failure rates; smaller models produced dangerous responses on roughly one in four queries. French and Bengali showed the highest critical failure rates, with pediatric dosing posing the greatest risk across all models. Submitted to ACL.
+        </p>
+      </div>
+      <div>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Python</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">NLP</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">LLM Evaluation</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Multilingual</span>
+          <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">Medical AI</span>
+        </div>
+        <a href="/cross-lingual-drug-dosage-report.pdf" target="_blank" rel="noopener noreferrer" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-4 py-2 rounded transition-colors duration-300">
+          Read Paper →
+        </a>
+      </div>
+    </div>
+
+  <!-- Project 6: Fashion-MNIST Neural Networks -->
     <div class="bg-white/60 rounded-xl shadow-md overflow-hidden p-6 flex flex-col justify-between">
       <div>
         <h3 class="text-xl font-bold mb-2">Neural Network Architectures for Fashion-MNIST</h3>
@@ -280,7 +326,7 @@ const { fullName, title, institute, research_areas } = profile
     </div>
 
 
-  <!-- Project 5: Track Split -->
+  <!-- Project 7: Track Split -->
     <div class="bg-white/60 rounded-xl shadow-md overflow-hidden p-6 flex flex-col justify-between">
       <img src="/tsplit.png" alt="Track Split App" class="rounded mb-4 w-full max-h-64 object-cover" />
       <div>
@@ -298,6 +344,9 @@ const { fullName, title, institute, research_areas } = profile
         <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-sm">OCR</span>
       </div>
     </div>
+
+
+
 
   </div>
 </section>
